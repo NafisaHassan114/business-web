@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #4042A7;
+}
+.box{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 30px;
+}
+.box-parent{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 80px;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #4042A7;
+}
+.price{
+    text-align: center;
+    font-size: 60px;
+    color: #4042A7;
+    margin-bottom: 10px;
+}
+sup{
+    font-size: 25px;
+}
+hr{
+    border-top: 1px rgb(225, 222, 222) solid;
+    margin-bottom: 45px;
+}
+.tik{
+    display: flex;
+    gap: 20px;
+    line-height: 28px;
+    color: gray;
+}
+.tik i{
+    color: green;
+    font-weight: 900;
+}
+button {
+    border: none;
+    width: 220px;
+    height: 35px;
+    background-color: #2dbeed;
+    color: white;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 135px;
+    margin-left: -12px;
+}
+.tik-pro{
+    display: flex;
+    gap: 20px;
+    margin-left: -12px;
+    line-height: 28px;
+    color: gray;
+}
+.tik-pro i{
+    color: green;
+    font-weight: 900;
+}
+.btn-pro {
+    border: none;
+    width: 220px;
+    height: 35px;
+    background-color: #2dbeed;
+    color: white;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: -12px;
+}
